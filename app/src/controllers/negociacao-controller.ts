@@ -26,7 +26,7 @@ export class NegociacaoController {
     }
 
     @inspect
-    @logarTempoDeExecucao()
+    @logarTempoDeExecucao(true)
     public adiciona(): void {
         /*
             Zé, você já viu isso?
